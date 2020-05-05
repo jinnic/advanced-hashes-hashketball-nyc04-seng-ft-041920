@@ -239,7 +239,6 @@ end
 
 # Return the number of rebounds associated with the player 
 # that has the largest shoe size. Break this one down into steps:
-
 # First, find the player with the largest shoe size
 # Then, return that player's number of rebounds
 # Remember to think about return values here.
