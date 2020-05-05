@@ -247,7 +247,7 @@ end
 def big_shoe_rebounds
   
   big_shoe = 0
-  player_name = ""
+  rebound_num = 0
   
   #loop key(:home, :away) and get value(hash)
   game_hash.each do |key, value|
@@ -255,10 +255,10 @@ def big_shoe_rebounds
     value[:players].each do |player| 
       if big_shoe < player[:shoe] 
         big_shoe = player[:shoe] 
-        player_name = player[:player_name]
+        rebound_num = player[:rebounds]
       end
     end
     
   end
-  player_name
+  rebound_num
 end
